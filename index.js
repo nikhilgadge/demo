@@ -1,6 +1,3 @@
-var nikfunction=() =>{
-    console.log("This is nikhil's function")
-}
-
-
-module.exports = nikfunction ; 
+exports.nikfunction = function (){
+    console.log("This is nik function")
+};
